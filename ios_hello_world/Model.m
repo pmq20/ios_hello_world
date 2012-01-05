@@ -9,5 +9,7 @@
 #import "Model.h"
 
 @implementation Model
-
++ (NSString *)utter{
+    return @"HelloWorld";
+}
 @end

@@ -38,21 +38,21 @@
 		8E18EF4814B5563800C049B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E18EF4A14B5563800C049B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E18EF4C14B5563800C049B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8E18EF5014B5563800C049B2 /* ios_hello_world-Info.plist */ = {isa = PBXFileReference; path = "ios_hello_world-Info.plist"; sourceTree = "<group>"; };
+		8E18EF5014B5563800C049B2 /* ios_hello_world-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_hello_world-Info.plist"; sourceTree = "<group>"; };
 		8E18EF5214B5563800C049B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8E18EF5414B5563800C049B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8E18EF5614B5563800C049B2 /* ios_hello_world-Prefix.pch */ = {isa = PBXFileReference; path = "ios_hello_world-Prefix.pch"; sourceTree = "<group>"; };
-		8E18EF5714B5563800C049B2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E18EF5614B5563800C049B2 /* ios_hello_world-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios_hello_world-Prefix.pch"; sourceTree = "<group>"; };
+		8E18EF5714B5563800C049B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E18EF5814B5563800C049B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E18EF5A14B5563800C049B2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8E18EF5A14B5563800C049B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8E18EF5B14B5563800C049B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8E18EF5E14B5563800C049B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		8E18EF6114B5563800C049B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		8E18EF6814B5563800C049B2 /* ios_hello_worldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_hello_worldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18EF6914B5563800C049B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E18EF7114B5563800C049B2 /* ios_hello_worldTests-Info.plist */ = {isa = PBXFileReference; path = "ios_hello_worldTests-Info.plist"; sourceTree = "<group>"; };
+		8E18EF7114B5563800C049B2 /* ios_hello_worldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_hello_worldTests-Info.plist"; sourceTree = "<group>"; };
 		8E18EF7314B5563800C049B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8E18EF7514B5563800C049B2 /* ios_hello_worldTests.h */ = {isa = PBXFileReference; path = ios_hello_worldTests.h; sourceTree = "<group>"; };
+		8E18EF7514B5563800C049B2 /* ios_hello_worldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_hello_worldTests.h; sourceTree = "<group>"; };
 		8E18EF7614B5563800C049B2 /* ios_hello_worldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hello_worldTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

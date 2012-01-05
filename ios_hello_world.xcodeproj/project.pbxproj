@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7901BB7C14B5D2CF0013E63B /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7901BB7B14B5D2CF0013E63B /* Model.m */; };
 		8E18EF4914B5563800C049B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18EF4814B5563800C049B2 /* UIKit.framework */; };
 		8E18EF4B14B5563800C049B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18EF4A14B5563800C049B2 /* Foundation.framework */; };
 		8E18EF4D14B5563800C049B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18EF4C14B5563800C049B2 /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7901BB7A14B5D2CF0013E63B /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		7901BB7B14B5D2CF0013E63B /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		8E18EF4414B5563800C049B2 /* ios_hello_world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_hello_world.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E18EF4814B5563800C049B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E18EF4A14B5563800C049B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				8E18EF5D14B5563800C049B2 /* ViewController_iPhone.xib */,
 				8E18EF6014B5563800C049B2 /* ViewController_iPad.xib */,
 				8E18EF4F14B5563800C049B2 /* Supporting Files */,
+				7901BB7A14B5D2CF0013E63B /* Model.h */,
+				7901BB7B14B5D2CF0013E63B /* Model.m */,
 			);
 			path = ios_hello_world;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 				8E18EF5514B5563800C049B2 /* main.m in Sources */,
 				8E18EF5914B5563800C049B2 /* AppDelegate.m in Sources */,
 				8E18EF5C14B5563800C049B2 /* ViewController.m in Sources */,
+				7901BB7C14B5D2CF0013E63B /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +449,7 @@
 				8E18EF7C14B5563800C049B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E18EF7D14B5563800C049B2 /* Build configuration list for PBXNativeTarget "ios_hello_worldTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +458,7 @@
 				8E18EF7F14B5563800C049B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

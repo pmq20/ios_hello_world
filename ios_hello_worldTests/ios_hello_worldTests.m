@@ -7,7 +7,7 @@
 //
 
 #import "ios_hello_worldTests.h"
-
+#import "Model.h"
 @implementation ios_hello_worldTests
 
 - (void)setUp
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ios_hello_worldTests");
+    STAssertTrue([Model utter], @"HelloWorld", @"");
 }
 
 @end
